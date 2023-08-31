@@ -65,11 +65,25 @@ const STUDIES = [
     ],
   },
   {
+    name: "Specialist in Diagnostic Ultrasound Systems (Severeal Courses)",
+    company_name: "Center for Clinic Engineering and Electromedicine",
+    graduation_date: "03/09/2022",
+    logo: "/img/JobsLogos/CNE.png",
+    skills: ["Diagnostic Ultrasound APLIO-300", "Diagnostic Ultrasound CX-50, CX-100", "Movil X-Rays SHIMADZU MX8c"],
+  },
+  {
+    name: "Specialist in Hematological Systems",
+    company_name: "Center for Clinic Engineering and Electromedicine",
+    graduation_date: "03/09/2022",
+    logo: "/img/JobsLogos/CNE.png",
+    skills: ["Hematological Complex PENTRA XLR"],
+  },
+  {
     name: "Biomedical Engineering",
     company_name: "Technological University of Havana",
     graduation_date: "15/07/2019",
     logo: "/img/StudiesLogos/CUJAE.png",
-    skills: ["Master’s Degree in a 5-year Single Cycle program"],
+    skills: ["Master`s Degree in a 5-year Single Cycle program"],
   },
 ];
 
