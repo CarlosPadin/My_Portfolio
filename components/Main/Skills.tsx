@@ -14,7 +14,7 @@ import {
 const SKILLS = [
   {
     name: "Programming Languages",
-    skills: ["C/C++", "Python", "MatLab", "JavaScript"],
+    skills: ["C/C++", "Python", "MatLab", "JavaScript", "TypeScript"],
   },
   {
     name: "Frontend Technologies",

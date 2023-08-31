@@ -3,14 +3,9 @@ import Image from "next/image";
 
 import Layout from "@/components/Layout/Layout";
 import {
-  Box,
   Divider,
   Grid,
-  List,
-  ListItem,
-  ListItemButton,
   Stack,
-  Typography,
 } from "@mui/material";
 import ContactCard from "@/components/Contact/ContactCard";
 import Title from "@/components/UI/Title";
