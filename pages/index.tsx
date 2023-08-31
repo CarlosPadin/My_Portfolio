@@ -34,7 +34,7 @@ const HomePage: NextPage = () => {
             {descrption}
           </Typography>
         </Stack>
-        <Typography variant="body2" sx={{ marginTop: "3%" }}>
+        <Typography variant="body2" sx={{ marginTop: "3%", marginBottom: '1%' }}>
           As a web developer, I am use to work with:
         </Typography>
         <Stack justifyContent='center' alignItems='center'>
