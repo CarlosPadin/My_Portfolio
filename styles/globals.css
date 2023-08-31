@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BadScript';
+    src: url('./fonts/BadScript-Regular.ttf');
+  }
+  
+  .specialTypo {
+    font-family: 'BadScript', sans-serif;
+  }
