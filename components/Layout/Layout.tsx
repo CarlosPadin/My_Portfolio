@@ -5,6 +5,7 @@ import SocialLinks from './SocialLinks';
 import PagesLinks from './PagesLinks';
 import Head from "next/head";
 import Footer from "../UI/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 interface Props {
   children: ReactNode;
@@ -29,7 +30,7 @@ const Layout: FC<Props> = ({ children, title }) => {
           </Divider>
 
           {children}
-
+          <Analytics />
         </Stack>
       </Stack>
       <Footer />
