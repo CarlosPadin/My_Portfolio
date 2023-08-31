@@ -10,33 +10,8 @@ import {
   Grid,
   Chip,
 } from "@mui/material";
+import { SKILLS } from "@/utils/data";
 
-const SKILLS = [
-  {
-    name: "Programming Languages",
-    skills: ["C/C++", "Python", "MatLab", "JavaScript", "TypeScript"],
-  },
-  {
-    name: "Frontend Technologies",
-    skills: ["ReactJS", "NextJS", "Redux", "MaterialUI", "Bootstrap"],
-  },
-  {
-    name: "Backend Technologies",
-    skills: ["Node(Express)", "Django", "Flask"],
-  },
-  {
-    name: "Versions Control",
-    skills: ["Git", "GitHub"],
-  },
-  {
-    name: "Tools",
-    skills: ["VisualStudioCode", "PyCharm", "Docker"],
-  },
-  {
-    name: "Databases",
-    skills: ["MySQL", "PostgreSQL"],
-  },
-];
 
 const Skills: FC = () => {
   return (

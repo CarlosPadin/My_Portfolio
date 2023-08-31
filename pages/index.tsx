@@ -3,9 +3,8 @@ import { NextPage } from "next";
 import { Box, Stack, Typography } from "@mui/material";
 import Skills from "@/components/Main/Skills";
 import Layout from "@/components/Layout/Layout";
+import { DESCRIPTION } from "@/utils/data";
 
-const descrption =
-  "I am a web developer with more than a year of experience in designing and developing dynamic and functional websites. In addition, I have been a biomedical engineer for 4 years, which has given me a solid foundation in analysis and problem solving. I consider myself a passionate and creative web developer, who strives to offer innovative and quality solutions. I like to keep up to date with the latest trends and tools in the sector, as well as learn new skills and improve existing ones. I am also very organized and responsible, able to work both independently and in a team.";
 
 const HomePage: NextPage = () => {
   return (
@@ -15,8 +14,8 @@ const HomePage: NextPage = () => {
           marginY: "10%",
         }}
       >
-        <Stack direction="column" spacing={2} >
-          <Typography variant="h5">Hello, my name is</Typography>
+        <Stack direction="column" spacing={3} >
+          <Typography variant="h5" >Hello, my name is</Typography>
           <Typography
             variant="h1"
             marginTop={2}
@@ -31,7 +30,7 @@ const HomePage: NextPage = () => {
             align="justify"
             width='95%'
           >
-            {descrption}
+            {DESCRIPTION}
           </Typography>
         </Stack>
         <Typography variant="body2" sx={{ marginTop: "3%", marginBottom: '1%' }}>
