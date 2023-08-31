@@ -40,7 +40,7 @@ const SKILLS = [
 
 const Skills: FC = () => {
   return (
-    <Stack direction="row" width='70%'>
+    <Stack direction="row" width='75%'>
       <Grid container spacing="1rem">
         {SKILLS.map((skill) => (
           <Grid item xs={6} md={4} key={skill.name}>
