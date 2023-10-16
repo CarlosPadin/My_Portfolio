@@ -1,14 +1,11 @@
 import { FC } from "react";
 
 import {
-  FacebookOutlined,
   GitHub,
-  LinkedCameraOutlined,
   LinkedIn,
   Mail,
-  MailOutline,
-  MailOutlineOutlined,
   Telegram,
+  TheaterComedyOutlined,
   Twitter,
 } from "@mui/icons-material";
 import { Button, Stack } from "@mui/material";
@@ -42,6 +39,7 @@ const SocialLinks: FC = () => {
           <Mail />
         </Button>
       </Link>
+      
     </Stack>
   );
 };

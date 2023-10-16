@@ -6,6 +6,7 @@ import PagesLinks from './PagesLinks';
 import Head from "next/head";
 import Footer from "../UI/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import { TheaterComedyOutlined } from "@mui/icons-material";
 
 interface Props {
   children: ReactNode;
@@ -24,6 +25,7 @@ const Layout: FC<Props> = ({ children, title }) => {
 
       <Stack direction="row" spacing={15} sx={{ margin: '1rem 0 0 1rem'}}>
         <PagesLinks />
+      
         <Stack direction="column" width="100%">
           <Divider textAlign="right" variant="inset">
             <SocialLinks />

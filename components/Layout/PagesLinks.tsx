@@ -6,6 +6,7 @@ import {
   SchoolOutlined,
   WorkOutlineOutlined,
   PersonOutlineOutlined,
+  TheaterComedyOutlined,
 } from "@mui/icons-material";
 import { Stack, Tooltip, IconButton } from "@mui/material";
 

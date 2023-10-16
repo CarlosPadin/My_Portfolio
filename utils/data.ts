@@ -50,6 +50,22 @@ export const STUDIES = [
       ],
     },
     {
+      name: "React - The Complete Guide",
+      company_name: "UDEMY",
+      graduation_date: "25/06/2023",
+      logo: "/img/StudiesLogos/Udemy.jfif",
+      skills: [
+        "React.JS Basics",
+        "Components, States, Events, Hooks",
+        "Http request",
+        "Redux and Redux Toolkit",
+        "React Router",
+        "Food order app",
+        "Introduction to Next.JS and TypeScript",
+        "Unit Tests on React Apps",
+      ],
+    },
+    {
       name: "ChatGPT Prompt Engineer",
       company_name: "DeepLearning.AI",
       graduation_date: "10/05/2023",
