@@ -6,7 +6,7 @@ const Footer: FC = () => {
   return (
     <Stack direction='row' justifyContent='end' sx={{ width: '98%'}}>
       <ChangeCircleOutlined color="primary" />
-        <Typography variant="caption">Version 1.0.0</Typography>
+        <Typography variant="caption">Version 1.0.1</Typography>
     </Stack>
   )
 }

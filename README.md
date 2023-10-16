@@ -28,7 +28,7 @@ npm start
 
 ## Common questions <a name="questions"></a> 
 - The app is hosted on __Vercel__ under a free payment plan. This might affect the loading speed of the site
-- This is the first version of the app, still in development.
+- This is the first version of the app (v 1.0.1), still in development.
 
 ## Contact <a name="contact"></a> 
 Carlos Padin: padin790@gmail.com

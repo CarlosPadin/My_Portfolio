@@ -1,17 +1,29 @@
 import { FC } from "react";
 import Link from "next/link";
 
+import { useDispatch, useSelector } from "react-redux";
 import {
   CottageOutlined,
   SchoolOutlined,
   WorkOutlineOutlined,
   PersonOutlineOutlined,
-  TheaterComedyOutlined,
+  LightModeOutlined,
+  DarkModeOutlined,
 } from "@mui/icons-material";
-import { Stack, Tooltip, IconButton } from "@mui/material";
+import { Stack, Tooltip, IconButton, Box } from "@mui/material";
+import { themingActions } from "@/store/theming-slice";
+import { RootState } from "@/store";
 
 const PagesLinks: FC = () => {
+  const dispatch = useDispatch();
+  const mode = useSelector((state: RootState) => state.theme.mode);
+
+  const onToggle = () => {
+    dispatch(themingActions.toggleTheme());
+  }
+
   return (
+    <Box>
     <Stack
       direction="column"
       spacing={3}
@@ -43,12 +55,16 @@ const PagesLinks: FC = () => {
       </Tooltip>
       <Tooltip title="CONTACT">
         <Link href="/Contact">
-          <IconButton color="primary">
+          <IconButton color="primary" >
             <PersonOutlineOutlined fontSize="large" />
           </IconButton>
         </Link>
       </Tooltip>
     </Stack>
+      <IconButton color="primary" onClick={onToggle}>
+        {mode? <DarkModeOutlined fontSize="large"/> : <LightModeOutlined fontSize="large" />}
+      </IconButton>
+    </Box>
   );
 };
 
